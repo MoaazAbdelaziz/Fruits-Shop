@@ -1,0 +1,490 @@
+/* Start Global Rules */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.clear{
+    clear: both;
+}
+/* End Global Rules */
+
+/* Start Header */
+.header {
+    width: 100%;
+    background: #F8F6F9;
+    padding: 10px;
+}
+
+.header .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.logo p {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.links {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.links img{
+    width: 22px;
+    vertical-align: middle;
+}
+
+/* End Header */
+
+/* Start Hero */
+.hero {
+    width: 100%;
+    padding: 50px 0;
+    background: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.hero .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hero-text {
+    width: 50%;
+    float: left;
+    padding: 50px 0;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    color: #000;
+}
+
+.hero-text p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.shop {
+    background: #ff5722;
+    color: white;
+}
+
+.shop:hover{
+    background-color: white;
+    color: #ff5722;
+    border: #ff5722 1px solid;
+}
+
+.contact {
+    background: black;
+    color: white;
+}
+
+.contact:hover{
+    background-color: white;
+    color: black;
+    border: black 1px solid;   
+}
+
+.hero-image {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.hero-image img {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+}
+/* End Hero */
+
+/* Start Services */
+.services {
+    width: 100%;
+    text-align: center;
+}
+
+.services h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.services-desc {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.services-cards{
+    width: 30%;
+    display: inline-block;
+    background: white;
+    padding: 110px 5px;
+    border-radius: 5px;
+    margin: 20px 5px;
+    border: #E2DFE3 1px solid;
+}
+
+.services-cards img {
+    width: 50px;
+    height: 50px;
+}
+
+.services-cards h3 {
+    color: #ff5722;
+    margin: 10px 0;
+}
+
+.services-cards:hover{
+    border-top: 5px solid #ff5722;
+}
+
+.btn-read-more{
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+.read-more{
+    background: black;
+    color: white;
+}
+
+.read-more:hover{
+    background: white;
+    color: black;
+    border: #000 1px solid;
+}
+/* End Services */
+
+/*Start Fresh Fruits*/
+.fresh-fruits {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fresh-fruits h2 {
+    font-size: 30px;
+}
+
+.fresh-desc {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.fruit-item {
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 0 40px;
+}
+
+.fruit-text {
+    width: 45%;
+    float: left;
+    text-align: left;
+    padding: 20px;
+}
+
+.fruit-image {
+    width: 45%;
+    float: right;
+    text-align: right;
+}
+
+
+.orange {
+    width: 35%;
+    margin-right: 150px;
+    display: block;
+    margin-left: 150px;
+}
+
+.grapes {
+    width: 15%;
+    margin-right: 150px;
+    display: block;
+    margin-left: 150px;
+}
+
+.guava {
+    width: 35%;
+    margin-right: 150px;
+    display: block;
+    margin-left: 150px;
+}
+
+.buy-now {
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.buy-now:hover {
+    background: white;
+    color: black;
+    border: #000 1px solid;
+}
+
+/*End Fresh Fruits*/
+
+/*Start Second Hero*/
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url('./assets/images/tasty.png') center center/cover;
+    margin-bottom: 50px;
+}
+
+.hero-section h1 {
+    position: absolute;
+    top: 48%;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+/*End Second Hero*/
+
+/*Start Client*/
+.client{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.client h2{
+    font-size: 30px;
+}
+
+.client-desc{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.client-image img{
+    width: 25%;
+}
+
+.client-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.client-comment {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 600px;
+    margin: 10px auto;
+    text-align: center;
+}
+/*End Client*/
+
+/*Start Contact*/
+.contact-us {
+    width: 100%;
+    padding: 50px 10%;
+    background: white;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.form-container {
+    width: 50%;
+    float: left;
+}
+
+.form-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: black; 
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #333;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    color: #333;
+}
+
+.message{
+    margin: 50px 0;
+}
+
+.send-btn {
+    background: #ff6f3c;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.image-container {
+    float: right;
+}
+
+.image-container img {
+    position: absolute;
+    width: 16%;
+    vertical-align: middle;
+    right: 0;
+    bottom: 0;
+}
+
+/*End Contact*/
+
+/*Start Footer*/
+.footer {
+    width: 100%;
+    background: white;
+    padding: 40px 8%;
+    text-align: center;
+}
+
+.footer-section {
+    width: 23%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.follow-us {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 20px;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 36px;
+    height: 36px;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+
+.footer-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+    font-size: 14px;
+}
+
+.footer-input:focus{
+    border-color: black;
+    border-width: 3px;
+}
+
+.subscribe-btn {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 120px;
+}
+/*End Footer*/
+
+/*Start Copyright*/
+.copyright-section {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background: #F8F6F9;
+    color: black;
+}
+/*End Copyright*/
